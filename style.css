@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Caveat&family=Kanit&family=Pacifico&family=Poppins:wght@100;300;400;500;600&family=Rouge+Script&display=swap');
+
+body{
+    background-color: #8198a1;
+
+font-family: 'Kanit', sans-serif;
+
+}
+
+
+
+
+.navbar{
+    background-color: white;
+    box-shadow: 0px 10x 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand{
+    padding-left: 40px;
+    font-size: 45px;
+}
+
+.carousel-caption {
+    bottom: 200px;
+    z-index: 2;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+.carousel-caption h5 {
+    font-size: 45px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.carousel-inner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.363);
+    z-index: 1;
+}
